@@ -5,6 +5,7 @@
 library;
 
 // Server-specific Jaspr import.
+import 'package:beyond_flutter/components/rocket.dart';
 import 'package:jaspr/dom.dart';
 import 'package:jaspr/server.dart';
 
@@ -16,7 +17,6 @@ import 'package:jaspr_content/components/sidebar.dart';
 import 'package:jaspr_content/jaspr_content.dart';
 import 'package:jaspr_content/theme.dart';
 
-import 'components/sample_app.dart';
 import 'github_pages_base.dart';
 
 // This file is generated automatically by Jaspr, do not remove or edit.
@@ -68,7 +68,7 @@ void main() {
           CodeBlock(),
           // Adds zooming and caption support to images.
           Image(zoom: true),
-          SampleApp(),
+          Rocket(),
         ],
         layouts: [
           // Out-of-the-box layout for documentation sites.

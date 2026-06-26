@@ -6,7 +6,7 @@
 
 // ignore_for_file: directives_ordering, deprecated_member_use
 
-import '../../../widgets/counter_widget.dart' show CounterWidget;
-export '../../../widgets/counter_widget.dart' show CounterWidget;
+import '../../../widgets/rocket_widget.dart' show RocketWidget;
+export '../../../widgets/rocket_widget.dart' show RocketWidget;
 
-typedef CounterWidgetOrStubbed = CounterWidget;
+typedef RocketWidgetOrStubbed = RocketWidget;

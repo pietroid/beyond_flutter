@@ -5,6 +5,10 @@
 // Generated with jaspr_builder
 
 import 'package:jaspr/server.dart';
+import 'package:beyond_flutter/components/rocket_client_component.dart'
+    as _rocket_client_component;
+import 'package:beyond_flutter/constants/view_transition.dart'
+    as _view_transition;
 import 'package:jaspr_content/components/_internal/code_block_copy_button.dart'
     as _code_block_copy_button;
 import 'package:jaspr_content/components/_internal/zoomable_image.dart'
@@ -34,6 +38,10 @@ import 'package:jaspr_content/components/sidebar_toggle_button.dart'
 ServerOptions get defaultServerOptions => ServerOptions(
   clientId: 'main.client.dart.js',
   clients: {
+    _rocket_client_component.RocketClientComponent:
+        ClientTarget<_rocket_client_component.RocketClientComponent>(
+          'rocket_client_component',
+        ),
     _code_block_copy_button.CodeBlockCopyButton:
         ClientTarget<_code_block_copy_button.CodeBlockCopyButton>(
           'jaspr_content:code_block_copy_button',
@@ -48,6 +56,7 @@ ServerOptions get defaultServerOptions => ServerOptions(
         ),
   },
   styles: () => [
+    ..._view_transition.viewTransitionStyles,
     ..._callout.Callout.styles,
     ..._code_block.CodeBlock.styles,
     ..._image.Image.styles,

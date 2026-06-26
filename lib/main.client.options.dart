@@ -6,6 +6,8 @@
 
 import 'package:jaspr/client.dart';
 
+import 'package:beyond_flutter/components/rocket_client_component.dart'
+    deferred as _rocket_client_component;
 import 'package:jaspr_content/components/_internal/code_block_copy_button.dart'
     deferred as _code_block_copy_button;
 import 'package:jaspr_content/components/_internal/zoomable_image.dart'
@@ -31,6 +33,10 @@ import 'package:jaspr_content/components/sidebar_toggle_button.dart'
 /// ```
 ClientOptions get defaultClientOptions => ClientOptions(
   clients: {
+    'rocket_client_component': ClientLoader(
+      (p) => _rocket_client_component.RocketClientComponent(),
+      loader: _rocket_client_component.loadLibrary,
+    ),
     'jaspr_content:code_block_copy_button': ClientLoader(
       (p) => _code_block_copy_button.CodeBlockCopyButton(),
       loader: _code_block_copy_button.loadLibrary,

@@ -35,14 +35,14 @@ void main() {
   // your markdown files in the content/ directory to a beautiful documentation site.
   runApp(
     Document(
-      title: 'Jaspr with Github Pages',
+      title: 'Beyond Flutter',
       base: base,
       meta: {
-        'description': 'Jaspr with Github Pages template',
-        'keywords': 'jaspr, github, pages, documentation',
-        'og:title': 'Jaspr with Github Pages',
-        'og:description': 'Jaspr with Github Pages template',
-        'og:image': 'https://pietroid.github.io/jaspr_github_pages/images/logo.svg',
+        'description': 'Beyond Flutter: Exploring Flutter',
+        'keywords': 'Flutter, Dart, Web, Mobile, Desktop,',
+        'og:title': 'Beyond Flutter',
+        'og:description': 'Beyond Flutter',
+        'og:image': 'https://pietroid.github.io/${base}logo.png',
       },
       head: [link(rel: 'stylesheet', href: '${base}styles.css')],
       body: ContentApp(
@@ -69,7 +69,7 @@ void main() {
           // Out-of-the-box layout for documentation sites.
           DocsLayout(
             header: Header(
-              title: 'Jaspr with GitHub Pages',
+              title: 'Beyond Flutter',
               logo: 'images/logo.svg',
               items: [],
             ),
@@ -79,15 +79,15 @@ void main() {
           ),
         ],
         theme: ContentTheme(
-          font: FontFamily('Geist'),
-          background: ThemeColor(Color("#C7E7E5")),
+          font: FontFamily('Plus Jakarta Sans'),
+          background: ThemeColor(Color("#000000")),
           colors: [
-            ContentColors.text.apply(Color("#003A6A")),
-            ContentColors.headings.apply(Color("#003A6A")),
-            ContentColors.links.apply(Color("#003A6A")),
-            ContentColors.quoteBorders.apply(Color("#003A6A")),
-            ContentColors.quotes.apply(Color("#003A6A")),
-            ContentColors.captions.apply(Color("#003A6A")),
+            ContentColors.text.apply(Color("#C7E7E5")),
+            ContentColors.headings.apply(Color("#C7E7E5")),
+            ContentColors.links.apply(Color("#C7E7E5")),
+            ContentColors.quoteBorders.apply(Color("#C7E7E5")),
+            ContentColors.quotes.apply(Color("#C7E7E5")),
+            ContentColors.captions.apply(Color("#C7E7E5")),
           ],
           typography: ContentTypography.base.apply(
             styles: Styles(

@@ -1,5 +1,5 @@
 # Site Configuration
-titleBase: "Jaspr with GitHub Pages"
+titleBase: "Beyond Flutter"
 favicon: favicon.ico
 # Served from a GitHub Pages project subpath, so all relative URLs resolve here.
-base: /jaspr_github_pages
+base: /beyond_flutter/

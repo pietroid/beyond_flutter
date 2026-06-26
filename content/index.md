@@ -1,13 +1,11 @@
 ---
-title: "Jaspr with Github Pages"
+title: "Beyond Flutter"
 ---
 
-This is a working example of [Jaspr](https://jaspr.site/) working with Github Pages. The site is hosted at [https://pietroid.github.io/jaspr_github_pages](https://pietroid.github.io/jaspr_github_pages), and is a simple template to highlight the features of Jaspr and Jaspr Content. 
+Beyond Flutter is a quest by Flutter Engineers to explore the world of Software Development with and beyond the Flutter Framework. 
 
-<Image
-  src="images/sample.png"
-  alt="Cat and Dog Playing with code"
-  caption="Dogs and Cats can be good friends."
-/>
+In the sessions below we will find out for what we can use the Framework itself and transcend it to build great stuff.
 
-Take a look at the [source code](https://github.com/pietroid/jaspr_github_pages) to see how it's built and feel free to use it as a starting point for your own Jaspr project.
+## Sessions
+
+- [26/06/2026: Using Jaspr to build Beyond Flutter website]()

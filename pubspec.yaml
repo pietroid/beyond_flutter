@@ -1,5 +1,5 @@
-name: jaspr_github_pages
-description: A documentation site built with Jaspr
+name: beyond_flutter
+description: Beyond Flutter
 version: 0.0.1
 
 environment:
@@ -9,6 +9,9 @@ dependencies:
   jaspr: ^0.23.1
   jaspr_content: ^0.5.2
   jaspr_router: ^0.8.2
+  flutter: 
+    sdk: flutter
+  jaspr_flutter_embed: ^0.4.11
 
 dev_dependencies:
   build_runner: ^2.10.0
@@ -18,3 +21,4 @@ dev_dependencies:
 
 jaspr:
   mode: static
+  flutter: embedded

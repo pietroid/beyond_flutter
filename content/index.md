@@ -1,6 +1,7 @@
 ---
 title: "Beyond Flutter"
 ---
+<SampleApp />
 
 Beyond Flutter is a quest by Flutter Engineers to explore the world of Software Development with and beyond the Flutter Framework. 
 

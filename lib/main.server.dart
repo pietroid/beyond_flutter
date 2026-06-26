@@ -16,6 +16,7 @@ import 'package:jaspr_content/components/sidebar.dart';
 import 'package:jaspr_content/jaspr_content.dart';
 import 'package:jaspr_content/theme.dart';
 
+import 'components/sample_app.dart';
 import 'github_pages_base.dart';
 
 // This file is generated automatically by Jaspr, do not remove or edit.
@@ -44,7 +45,10 @@ void main() {
         'og:description': 'Beyond Flutter',
         'og:image': 'https://pietroid.github.io/${base}logo.png',
       },
-      head: [link(rel: 'stylesheet', href: '${base}styles.css')],
+      head: [
+        link(rel: 'stylesheet', href: '${base}styles.css'),
+        script(src: "flutter_bootstrap.js", async: true),
+      ],
       body: ContentApp(
         // Enables mustache templating inside the markdown files.
         templateEngine: MustacheTemplateEngine(),
@@ -64,6 +68,7 @@ void main() {
           CodeBlock(),
           // Adds zooming and caption support to images.
           Image(zoom: true),
+          SampleApp(),
         ],
         layouts: [
           // Out-of-the-box layout for documentation sites.

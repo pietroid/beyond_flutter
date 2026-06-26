@@ -9,4 +9,4 @@ In the sessions below we will find out for what we can use the Framework itself 
 
 ## Sessions
 
-- [26/06/2026: Using Jaspr to build Beyond Flutter website]()
+- [26/06/2026: Using Jaspr to build Beyond Flutter website](./jaspr)

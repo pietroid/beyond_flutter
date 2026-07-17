@@ -108,7 +108,12 @@ class _RocketWidgetState extends State<RocketWidget> with TickerProviderStateMix
                                     shape: BoxShape.circle,
                                     boxShadow: [
                                       BoxShadow(
-                                        color: Colors.blueAccent.withValues(alpha: _glowOpacity.value),
+                                        color: const Color.fromARGB(
+                                          255,
+                                          255,
+                                          68,
+                                          68,
+                                        ).withValues(alpha: _glowOpacity.value),
                                         blurRadius: 30,
                                         spreadRadius: 10,
                                       ),

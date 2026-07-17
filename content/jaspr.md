@@ -1,6 +1,6 @@
 ---
 title: "Using Jaspr to build Beyond Flutter website"
-description: 26/06/2026
+description: Pietro - 26/06/2026
 ---
 
 [Jaspr](https://jaspr.site/) is a Dart Framework for Web Applications. So you can literally build web applications with Dart. It's not Flutter Web, it's the complementary opposite: 

@@ -10,3 +10,4 @@ In the sessions below we will find out for what we can use the Framework itself 
 ## Sessions
 
 - [26/06/2026: Using Jaspr to build Beyond Flutter website](./jaspr)
+- [17/04/2026: A path for the Anthropic Architect Certification](./anthropic)

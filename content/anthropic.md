@@ -3,17 +3,17 @@ title: "A path for the Anthropic Architect Certification"
 description: Pietro - 17/04/2026
 ---
 
-My current focus is to pass in the Anthropic Claude Certified Architect - Foundations (CCA-F) exam, because it's endorsed by VGV.
+My current focus is to pass in the Anthropic Claude Certified Architect - Foundations (CCA-F) exam, mainly because it's endorsed by VGV, but also as a way to deepen my knowledge of Claude and its ecosystem.
 
 <Image src="images/ccaf.png" width="200"/>
 
-This certification is around since March/2026, so there have been already some hype on the market about it. 
+This certification has been around since March/2026, so there has already been some hype on the market about it.
 
 While I meet it with [certain skepticism](https://www.reddit.com/r/ClaudeAI/comments/1sgn0cf/passed_anthropics_claude_certified_architect/) (AI ecosystem is still very young and evolving), given the importance of Anthropic on our daily lives as developers, I do think there's a level of relevance to this certification.
 
 I think this article very useful to understand how to [apply to it and a summary of the exam](https://usefusefi.medium.com/the-complete-guide-to-the-claude-certified-architect-foundations-cca-f-13f3f1af605c). 
 
-Only companies within Anthropic network can apply, but why not convince your company to do it? It's free.
+Only companies within Anthropic network can apply, but why not convince your company to register to the network? It's free.
 
 ## ✍ The Exam itself
 
@@ -25,12 +25,13 @@ This is the main curriculum of the exam:
 4. Claude Code Configuration & Workflows - Final Weight: 20%
 5. Context Management & Reliability - Final Weight: 15%
 
-I would say the exam is half focused on some principles of Agentic AI, taking into consideration some universal principles of prompt and context engineering, but the other half is focused on the Anthropic Claude ecosystem, which is double sworded because it can be either a lock-in but a very competitive advantage if Anthropic succeeds in the long term to stay the main player.
+I would say the exam is half focused on some universal principles of Agentic AI focusing on prompt and context engineering.
+
+But the other half is focused on the Anthropic Claude ecosystem, which is double-edged because it can be either a dead-end for a locked-in vendor or a very competitive advantage if Anthropic succeeds in the long term to stay the main player.
 
 ## ❓The questions
 
-What caught most my attention and made me thing this certification is a not a complete waste of time is that the questions are posed for Engineers, it's not a look-up table for Anthropic Claude Documentation or some vague ideas for context engineering. Let's see an example of a question from a mocked exam:
-
+What caught most my attention and made me think this certification is not a complete waste of time is that the questions are posed for Engineers, it's not a look-up table for Anthropic Claude Documentation or some vague ideas for context engineering. Let's see an example of a question from a mocked exam:
 
 ```
 The synthesis agent receives summarized findings from the web search and document analysis agents, then passes a consolidated summary to the report generator. During testing, you discover the generated reports make factual claims without proper citations—the report generator cannot attribute statements to their original sources because that metadata was lost during the summarization steps. What is the most effective approach to ensure proper source attribution in the final reports?
@@ -56,7 +57,7 @@ So, how would be the solution?
 A. Have each agent output structured data separating content summaries from source metadata (URLs, document names, page numbers).
 ```
 
-The catch here is that all others are viable options. Report generator query the web? Feasible, but will call additional tools, spend more time and tokens. Skip summarization, feasible but a more obvious NO, as it would make spend unnecessary tokens. Instruct the agent to reference it, is a known trap: we should not rely on probabilistic solutions when we have a deterministic one. 
+The catch here is that all others are viable options. Report generator query the web? Feasible, but will call additional tools, spend more time and tokens. Skip summarization: would solve it, but a more obvious NO, as it would make spend way more tokens. Instruct the agent to reference it, is a known trap: we should not rely on probabilistic solutions when we have a deterministic one. 
 
 The only option left is maybe missed if you don't have a good understanding that Agents can have structured outputs, and then we see the power of knowing the Anthropic Claude ecosystem and how to use it properly.
 
